@@ -1,0 +1,28 @@
+cmd -  virtualenv -p python3 venv
+cmd-  source venv/bin/activate
+cmd-  pip install -r requirements.txt
+cmd  - python manage.py migrate
+cmd  -python manage.py runserver
+
+
+
+
+
+virtualenv -p python3 venv
+cd venv
+.\Scripts\activate
+cd..
+python manage.py migrate
+python manage.py runserver
+
+
+
+#Commands to Execute
+
+cd Desktop
+cd Gst-Billing-Python-Django
+cd venv
+.\Scripts\activate
+cd..
+python manage.py migrate
+python manage.py runserver
