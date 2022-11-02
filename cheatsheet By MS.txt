@@ -1,0 +1,18 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cheat sheet BY : Mayank 
+To push your project over Github.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ $ touch .gitignore
+ $ git config --global user.name Mayank
+ $ git config --global user.email sharmamayank829@gmail.com
+ $ git init
+ $ git add .
+ $ git commit -m "Initial Commit by MS"
+ $ git status
+Go to github from " + " choose "New Repository" > fill "Repository name" >fill "Description"  > choose " Private" from radio button > Click on "Create Repository" .
+ 
+  $  ssh-keygen -t rsa -b 4096 -C "sharmamayank829@gmail.com"
+  $  cat  /c/Users/mayan/.ssh/id_rsa.pub
+# copy SSH key from the above command then paste this key to github 
+ $  git remote add origin git@github.com:Mayank9799/GST-Billing-System-Project-.git
+ $  git push origin master
