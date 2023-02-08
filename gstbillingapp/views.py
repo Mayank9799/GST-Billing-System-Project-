@@ -454,4 +454,3 @@ def book_logs_add(request, book_id):
 def landing_page(request):
     context = {}
     return render(request, 'gstbillingapp/pages/landing_page.html', context)
-pthin
