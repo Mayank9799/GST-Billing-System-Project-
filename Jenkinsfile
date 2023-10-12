@@ -33,7 +33,7 @@ pipeline {
 
                         // Send Slack notification with the result of the tests
                         sh"""
-                            curl -X POST -H 'Content-type: application/json' --data '{"text":"${textMessage}"}' https://hooks.slack.com/services/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
+                            curl -X POST -H 'Content-type: application/json' --data '{"text":"${textMessage}"}' https://hooks.slack.com/services/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
                         """ 
                         if(inError) {
                           // Send an error signal to stop the pipeline
