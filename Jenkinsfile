@@ -16,7 +16,7 @@ pipeline {
                        // replace image and tag    
                                            
                        sh """
-                       echo "Hello Mayank Sir ji " > Mayank.txt
+                       echo "Hello Mayank Sir ji 2 " > Mayank2.txt
                        """
                         // Fill the slack message with the success message
                         textMessage = "Deployment Successfull"
